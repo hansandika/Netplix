@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand,
+.footer-brand {
+    font-family: "Haettenschweiler";
+    color: #e50914 !important;
+}
+
+footer {
+    background-color: #1f1f1f;
+    color: #ffff;
+}
+
+.footer-brand {
+    font-size: 73px;
+}
+
+.nav-link:hover {
+    color: #dc3545 !important;
+}
+
+.footer-text {
+    font-family: "Open Sans";
+}
+
+.footer-span {
+    color: #e50914;
+}
+
+.terms-list {
+    width: 40%;
+}
+
+.terms-list li {
+    padding-right: 2rem;
+    border-right: 1px solid #ffff;
+}
+
+.terms-list li:last-child {
+    border: none;
+}
+
+.terms-list li a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+.terms-list li:hover > a {
+    color: #e50914;
+}
+
+.footer-logo {
+    width: 20%;
+}
+
+.fab {
+    color: white;
+    background-color: #8f8f8f;
+    padding: 0.5rem;
+    border-radius: 50%;
+    font-size: 1.5rem;
+}

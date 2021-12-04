@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.carousel-item {
+    height: 40rem;
+}
+
+.carousel-item > img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-indicators {
+    z-index: 3;
+}
+
+.carousel-inner::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: linear-gradient(
+        73.45deg,
+        rgba(0, 0, 0, 0.72) 35.09%,
+        rgba(0, 0, 0, 0) 76.23%
+    );
+}
+
+.carousel-content {
+    z-index: 2;
+}
+
+.carousel-title {
+    font-family: "Roboto";
+}
+
+.carousel-text {
+    font-family: "Nunito";
+    width: 30rem;
+}
+
+.carousel-sub {
+    font-family: "Poppins";
+    word-spacing: 10px;
+}
+
+.btn-add-watchlist {
+    width: 15rem;
+}
+
+.carousel-indicators > .active {
+    background-color: #e50914;
+}
+
+.main-body {
+    background-color: #121219;
+}
+
+.movie-carousel {
+    list-style: none;
+}
+
+.card {
+    overflow: hidden;
+    border: none;
+    background-color: transparent !important;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 100%;
+}
+
+.card-info {
+    word-spacing: 8px;
+}
