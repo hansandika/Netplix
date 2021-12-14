@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.main-class {
+    background-color: #121219;
+    padding: 0 0.5rem;
+}
+
+.section-title {
+    border-left: #e50914 0.25rem solid;
+    padding-left: 1rem;
+}
+
+/* Fonts */
+
+.roboto {
+    font-family: "Roboto", sans-serif;
+}
+
+.poppins {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Show Detail */
+.bg-image {
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.row {
+    --bs-gutter-x: 0;
+}
+
+#show-detail {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.show-detail {
+    padding: 2.5rem 7.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.show-image {
+    width: 22.5rem;
+    height: 32.5rem;
+    border-radius: 10px;
+}
+
+.show-title {
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 0;
+    margin: 0;
+}
+
+.show-title h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.btn-danger {
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 1rem 1.5rem;
+    background-color: #e50914;
+}
+
+.alert-danger {
+    background-color: #e50914;
+    color: #fff;
+}
+
+.show-title .btn-outline-light {
+    margin: 0 1.5rem;
+    font-size: 1.5rem;
+    border-radius: 100%;
+}
+
+.genre {
+    background-color: transparent;
+    text-decoration: none;
+    border: solid #c4c4c4 0.1rem;
+    border-radius: 20px;
+    color: #c4c4c4;
+    padding: 0.25rem 1.75rem;
+    margin: 0 0.5rem;
+}
+
+.genre:hover {
+    background-color: #e50914;
+    color: #ffff;
+}
+
+.show-info {
+    padding: 1.5rem 0;
+}
+
+.show-info > div {
+    margin: 0.5rem 1rem;
+    text-align: center;
+}
+
+.show-info i {
+    font-size: 2.5rem;
+}
+
+.show-info-tag {
+    margin: 0.25rem 0;
+    opacity: 70%;
+    font-size: 0.75rem;
+}
+
+.show-info-score {
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.show-description {
+    margin: 0 1rem;
+}
+
+.show-description h4 {
+    font-weight: bold;
+}
+
+.card {
+    overflow: hidden;
+    border: none;
+}
+
+.movie-card {
+    background-color: transparent;
+}
+
+/* Cast */
+
+.cast-card {
+    width: 13.5rem;
+    height: 22rem;
+    border-radius: 20px;
+    background-color: #900c16;
+    border: none;
+}
+
+.cast-image {
+    height: 15.5rem;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+
+/* Reviews */
+
+.review-card {
+    background: transparent;
+    border: 1px solid #e50914 !important;
+    border-radius: 20px !important;
+    padding: 2rem;
+    height: auto;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+}
+
+.reviewer-detail {
+    padding-left: 1rem;
+}
+
+.review-rating {
+    font-size: 1.5rem;
+    word-spacing: 1.5px;
+}
+
+.reviewer {
+    border-radius: 50%;
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+}

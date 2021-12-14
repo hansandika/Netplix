@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+main {
+    background-color: #121219;
+}
+
+.card {
+    border: none;
+    background-color: transparent;
+}
+
+.card-title {
+    font-family: "Poppins";
+}
+
+.netplix-logo {
+    color: #e50914;
+    font-family: "Haettenschweiler";
+    text-decoration: none;
+}
+
+.netplix-logo:hover {
+    color: #e50914;
+    text-decoration: underline;
+}
+
+.form-input-box {
+    background-color: #1f1f1f;
+    border-radius: 15px;
+}
+
+.form-label {
+    width: 20rem;
+    margin-bottom: 0;
+}
+
+.form-input {
+    background-color: transparent !important;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+input:-webkit-autofill {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #ffff !important;
+}
+
+.btn-auth {
+    background-color: #e50914;
+    border-radius: 20px;
+}
+
+.footer-auth {
+    font-family: "Poppins";
+}
+
+.auth-link {
+    text-decoration: none;
+    color: #e50914;
+}
+
+.auth-link:hover {
+    color: #e50914;
+    text-decoration: underline;
+}

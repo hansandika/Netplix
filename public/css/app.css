@@ -12,13 +12,26 @@
     color: #e50914 !important;
 }
 
+.footer-brand {
+    font-size: 65px;
+    color: #e50914;
+    text-decoration: none;
+}
+
+.footer-link {
+    color: #e50914;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+
+.footer-link:hover {
+    color: #e50914;
+    text-decoration: underline;
+}
+
 footer {
     background-color: #1f1f1f;
     color: #ffff;
-}
-
-.footer-brand {
-    font-size: 73px;
 }
 
 .nav-link:hover {
@@ -29,16 +42,12 @@ footer {
     font-family: "Open Sans";
 }
 
-.footer-span {
-    color: #e50914;
-}
-
 .terms-list {
     width: 40%;
 }
 
 .terms-list li {
-    padding-right: 2rem;
+    padding: 0 0.8rem;
     border-right: 1px solid #ffff;
 }
 
@@ -65,4 +74,29 @@ footer {
     padding: 0.5rem;
     border-radius: 50%;
     font-size: 1.5rem;
+    transition: 0.5s ease-in-out;
+}
+
+.fab:hover {
+    transform: scale(1.5);
+}
+
+.fa-twitter:hover {
+    background: #55acee;
+}
+
+.fa-instagram:hover {
+    background: rgb(225, 48, 108);
+}
+
+.fa-facebook-f:hover {
+    background: #3b5998;
+}
+
+.fa-youtube:hover {
+    background: #bb0000;
+}
+
+.fa-reddit-alien:hover {
+    background: #f34802;
 }

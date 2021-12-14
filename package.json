@@ -16,6 +16,6 @@
         "postcss": "^8.1.14"
     },
     "dependencies": {
-        "@splidejs/splide": "^3.6.8"
+        "@splidejs/splide": "^3.6.9"
     }
 }

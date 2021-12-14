@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+h1 {
+    font-family: Roboto, sans-serif;
+}
+
+h4 {
+    font-family: Roboto, sans-serif;
+    font-size: 1.3rem;
+}
+
+.watchlist {
+    background-color: #121219;
+    padding: 2em 0 4em 0;
+}
+
+.cust-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.cust-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.cust-col {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3em;
+}
+
+.textGreen {
+    color: #6dff7c;
+}
+
+.textRed {
+    color: #fb3842;
+}
+
+.textBlue {
+    color: #45f4ff;
+}
+
+.title-section {
+    color: #ffffff;
+    min-height: 120px;
+    gap: 2%;
+}
+
+.title-section span {
+    margin-left: 3%;
+}
+
+.bookmark-icon {
+    font-size: 3rem;
+}
+
+.search-section {
+    min-height: 140px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1em;
+}
+
+.search-section__bar {
+    background-color: #4b4b4b;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0.75em 1.5%;
+    border-radius: 10px;
+}
+
+.search-section__input {
+    background-color: transparent;
+    border: none;
+    font-size: 1.2rem;
+    color: #ffffff;
+    opacity: 0.5;
+    width: 100%;
+}
+
+.search-section__input:focus {
+    outline: none;
+}
+
+.search-icon {
+    color: #ffffff;
+    opacity: 0.5;
+    font-size: 1.4rem;
+}
+
+.search-section__filter {
+    border-radius: 10px;
+    color: #ffffff;
+    opacity: 0.5;
+    padding-left: 0.5em;
+    gap: 10%;
+    width: 18%;
+}
+
+.filter-icon {
+    font-size: 1.6rem;
+}
+
+.filter-select {
+    background-color: transparent;
+    border: transparent;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.2rem;
+}
+
+.filter-select option {
+    color: #121219;
+}
+
+.watchlist-title {
+    color: #ffffff;
+    opacity: 0.8;
+}
+
+.watchlist-title:last-child {
+    width: 10%;
+}
+
+.watchlist-title h4 {
+    font-weight: 400;
+}
+.row-item {
+    width: 20%;
+}
+
+.row-item--action {
+    width: 10%;
+}
+
+.watchlist-card {
+    background-color: #1b1b1e;
+}
+
+.watchlist-card__title {
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.watchlist-card__status {
+    font-weight: 400;
+}
+
+.rating {
+    color: #ffb000;
+    font-family: "Poppins", sans-serif;
+}
+
+.actions {
+    width: 10%;
+}
+
+.modal-content {
+    background-color: #1b1b1e;
+    color: #ffffff;
+}
+
+.status-btn {
+    font-size: 1.3rem;
+    font-weight: bolder;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.status-btn:hover,
+.status-btn:focus:not(:active) {
+    background-color: #e50914;
+    border-color: #e50914;
+}
+
+.modal-header {
+    border: none;
+}
+
+.modal-footer {
+    border: none;
+}
+
+.cbo-wrapper {
+    width: 100%;
+    padding: 0.5em;
+    border-radius: 10px;
+    background-color: #131315;
+}
+
+.status-cbo {
+    background-color: transparent;
+    width: 100%;
+    margin: 0 auto;
+    border: none;
+    color: #ffffff;
+}
+
+.status-cbo option {
+    color: #000000;
+}
+
+.load-btn {
+    font-family: "Poppins", sans-serif;
+    border: none;
+    background-color: #e50914;
+    color: #ffffff;
+    padding: 0.5em 2em;
+    border-radius: 50px;
+    align-self: center;
+    align-items: center;
+}
+
+.arrow-down {
+    font-size: 2.5rem;
+    margin-left: 0.3em;
+}
+
+.save-btn,
+.save-btn:hover,
+.save-btn:focus:not(:active) {
+    background-color: #e50914;
+    border-color: #e50914;
+}
